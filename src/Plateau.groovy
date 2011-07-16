@@ -1,30 +1,44 @@
-class Plateau {
-    int upperRightX
-    int upperRightY
-    private static Plateau plateau = null
+public class Plateau
+{
+    private static Plateau plateau = null;
 
-    def setThePlateauCoordinates(String coordinates) {
-        String[] upperArrayCoordinates = coordinates.split(" ")
-        if (upperArrayCoordinates.size() != 2) {
-            throw new RoversException("Invalid input, please provide input as \"x_axis y_axis\"")
+        private int upperRightX;
+        private int upperRightY;
+
+    private Plateau(String coords)
+    {
+        populateInput(coords);
+    }
+
+    private void populateInput(String coords)
+    {
+        String [] upperArrayCoords = coords.split(" ");
+        if(upperArrayCoords.size()!=2){
+            throw new RoversException("Invalid input, please provide input as \"x_axis y_axis\"");
         }
-        upperRightX = Integer.valueOf(upperArrayCoordinates[0]).intValue()
-        upperRightY = Integer.valueOf(upperArrayCoordinates[1]).intValue()
+        upperRightX = Integer.valueOf(upperArrayCoords[0]).intValue();
+        upperRightY = Integer.valueOf(upperArrayCoords[1]).intValue();
     }
 
-    public static Plateau getInstance(String coordinates) {
-        if (plateau == null)
-            plateau = new Plateau(coordinates)
+    public static Plateau getInstance(String coords)
+    {
 
-        plateau
+        	if(plateau == null)
+                plateau = new Plateau("5 5");
+
+            plateau;
     }
 
-    public int getUpperRightX() {
-        upperRightX
+
+    public int getUpperRightX()
+    {
+        return upperRightX;
     }
 
-    public int getUpperRightY() {
-        upperRightY
+    public int getUpperRightY()
+    {
+        return upperRightY;
     }
+
 
 }
