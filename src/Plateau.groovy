@@ -1,44 +1,20 @@
-public class Plateau
-{
-    private static Plateau plateau = null;
+public class Plateau {
+    private int lowerLeftX = 0
+    private lowerLeftY = 0
+    private int upperRightX
+    private int upperRightY
 
-        private int upperRightX;
-        private int upperRightY;
-
-    private Plateau(String coords)
-    {
-        populateInput(coords);
-    }
-
-    private void populateInput(String coords)
-    {
-        String [] upperArrayCoords = coords.split(" ");
-        if(upperArrayCoords.size()!=2){
-            throw new RoversException("Invalid input, please provide input as \"x_axis y_axis\"");
+    def decreasePositionOfRoverOnPlateau(int position) {
+        if (position - 1 < lowerLeftX) {
+            throw new RoversException("Out of Rover...")
         }
-        upperRightX = Integer.valueOf(upperArrayCoords[0]).intValue();
-        upperRightY = Integer.valueOf(upperArrayCoords[1]).intValue();
+        --position
     }
 
-    public static Plateau getInstance(String coords)
-    {
-
-        	if(plateau == null)
-                plateau = new Plateau("5 5");
-
-            plateau;
+    def increasePositionOfRoverOnPlateu(int position) {
+        if (position + 1 > upperRightX) {
+            throw new RoversException("Out of Rover...")
+        }
+        ++position
     }
-
-
-    public int getUpperRightX()
-    {
-        return upperRightX;
-    }
-
-    public int getUpperRightY()
-    {
-        return upperRightY;
-    }
-
-
 }

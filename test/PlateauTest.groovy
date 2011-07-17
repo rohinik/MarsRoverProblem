@@ -4,12 +4,24 @@ class PlateauTest extends Specification{
 
     def "should create instance of Plateau"(){
         when:
-        plateau= new Plateau()
-        plateau.setThePlateauCoordinates("5 5")
+        plateau= new Plateau(upperRightX: 5,upperRightY: 5)
+
 
         then:
-        plateau.getUpperRightX()==5
-        plateau.getUpperRightY()==5
+        plateau!=null
     }
+    def "should increase the position of rover on plateau"(){
+        when:
+        plateau=new Plateau(upperRightX: 5,upperRightY: 5)
+        then:
+        plateau.increasePositionOfRoverOnPlateu(3)==4
 
+    }
+    def "should decrease the position of rover on plateau"(){
+        when:
+        plateau=new Plateau(upperRightX: 5,upperRightY: 5)
+        then:
+        plateau.decreasePositionOfRoverOnPlateau(3)==2
+
+    }
 }

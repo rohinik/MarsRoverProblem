@@ -3,6 +3,7 @@ public class Rover {
     int posX;
     int posY;
     int direction
+    Plateau plateau = new Plateau(upperRightX: 5, upperRightY: 5)
 
     public String move(String moversString) {
         moversString = moversString.toUpperCase()
@@ -10,62 +11,36 @@ public class Rover {
             char c = moversString.charAt(index)
             move(c);
         }
-        (posX + " " + posY + " " +MarsRoverConstants.DIRECTION_INT_TO_STRING.get(Integer.valueOf(direction)))
+        (posX + " " + posY + " " + MarsRoverConstants.DIRECTION_INT_TO_STRING.get(Integer.valueOf(direction)))
     }
 
     void move(char c) {
         switch (c) {
             case 'L':
             case 'R':
-                changeDirection(c)
+                changeDirectionOfRover(c)
                 break;
-
             case 'M':
-                move()
-                break;
+                moveTheRoverForwardDirection()
         }
     }
 
-    void move() {
-        if (direction == 1)
-            increaseYPosition()
-        else if (direction == 2)
-            increaseXPosition()
-        else if (direction == 3)
-            decreaseYPosition()
-        else
-            decreaseXPosition()
-    }
-
-    private def decreaseXPosition() {
-        if (posX - 1 < 0) {
-            throw new RoversException("Out of Rover...")
+    void moveTheRoverForwardDirection() {
+        switch (direction) {
+            case 1:
+                posY = plateau.increasePositionOfRoverOnPlateu(posY)
+                break
+            case 2:
+                posX = plateau.increasePositionOfRoverOnPlateu(posX)
+                break
+            case 3:
+                posY = plateau.decreasePositionOfRoverOnPlateau(posY)
+                break
+            case 4:
+                posX = plateau.decreasePositionOfRoverOnPlateau(posX)
         }
-        posX--
     }
-
-    private def decreaseYPosition() {
-        if (posY - 1 < 0) {
-            throw new RoversException("Out of Rover...")
-        }
-        posY--
-    }
-
-    private def increaseXPosition() {
-        if (posX + 1 > Plateau.getInstance("").getUpperRightX()) {
-            throw new RoversException("Out of Rover...")
-        }
-        posX++
-    }
-
-    private def increaseYPosition() {
-        if (posY + 1 > Plateau.getInstance("").getUpperRightY()) {
-            throw new RoversException("Out of Rover...")
-        }
-        posY++
-    }
-
-    private void changeDirection(char c) {
+    private void changeDirectionOfRover(char c) {
         if (c == 'L')
             direction--
         if (c == 'R')

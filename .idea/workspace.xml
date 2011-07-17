@@ -15,12 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0153f8d-b591-4d68-a4ea-2f061be99766" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProcessInput.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Rover.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/RoverTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Nasa.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MarsRoverConstants.groovy" afterPath="$PROJECT_DIR$/src/MarsRoverConstants.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Plateau.groovy" afterPath="$PROJECT_DIR$/src/Plateau.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProcessInput.groovy" afterPath="$PROJECT_DIR$/src/ProcessInput.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rover.groovy" afterPath="$PROJECT_DIR$/src/Rover.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/PlateauTest.groovy" afterPath="$PROJECT_DIR$/test/PlateauTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RoverTest.groovy" afterPath="$PROJECT_DIR$/test/RoverTest.groovy" />
     </list>
     <ignored path="MarsRoverProblem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,19 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PlateauTest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/PlateauTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="48" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="6" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +93,7 @@
       <file leaf-file-name="Plateau.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Plateau.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="211" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,19 +108,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRoverConstants.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MarsRoverConstants.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MarsRoverConstants.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="1" column="8" selection-start="42" selection-end="42" vertical-scroll-proportion="0.04509284">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rover.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rover.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rover.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="1" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.9098143">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +129,7 @@
       <file leaf-file-name="RoverTest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/RoverTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+            <state line="19" column="31" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +138,25 @@
       <file leaf-file-name="ProcessInput.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProcessInput.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessInputTest.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ProcessInputTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nasa.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Nasa.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,13 +177,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test/MarsRoverConstants.groovy" />
-        <option value="$PROJECT_DIR$/test/PlateauTest.groovy" />
         <option value="$PROJECT_DIR$/src/RoversException.groovy" />
-        <option value="$PROJECT_DIR$/src/MarsRoverConstants.groovy" />
-        <option value="$PROJECT_DIR$/src/Rover.groovy" />
-        <option value="$PROJECT_DIR$/src/ProcessInput.groovy" />
-        <option value="$PROJECT_DIR$/src/Plateau.groovy" />
+        <option value="$PROJECT_DIR$/test/ProcessInputTest.groovy" />
+        <option value="$PROJECT_DIR$/src/RoverHandler.groovy" />
         <option value="$PROJECT_DIR$/test/RoverTest.groovy" />
+        <option value="$PROJECT_DIR$/test/PlateauTest.groovy" />
+        <option value="$PROJECT_DIR$/src/MarsRoverConstants.groovy" />
+        <option value="$PROJECT_DIR$/src/Nasa.groovy" />
+        <option value="$PROJECT_DIR$/src/Plateau.groovy" />
+        <option value="$PROJECT_DIR$/src/ProcessInput.groovy" />
+        <option value="$PROJECT_DIR$/src/Rover.groovy" />
       </list>
     </option>
   </component>
@@ -211,9 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,6 +273,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,7 +301,53 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest.Should move the rover by given position">
+  <component name="RunManager" selected="JUnit.All in MarsRoverProblem">
+    <configuration default="false" name="Nasa" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="Nasa" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MarsRoverProblem" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49385" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlateauTest.should increase the position of rover on plateau" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="MarsRoverProblem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlateauTest" />
+      <option name="METHOD_NAME" value="should increase the position of rover on plateau" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="PlateauTest.should create instance of Plateau" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="MarsRoverProblem" />
@@ -311,15 +371,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PlateauTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverTest.Should move the rover by given position input 2" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="MarsRoverProblem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlateauTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="Should move the rover by given position input 2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -334,15 +394,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverTest.Should move the rover by given position" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="All in MarsRoverProblem" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="MarsRoverProblem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="Should move the rover by given position" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -446,10 +506,12 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PlateauTest.should create instance of Plateau" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlateauTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.Should move the rover by given position" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Nasa" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PlateauTest.should increase the position of rover on plateau" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlateauTest.should create instance of Plateau" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.Should move the rover by given position input 2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in MarsRoverProblem" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -491,11 +553,11 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -593,56 +655,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoversException.groovy">
+    <entry file="file://$PROJECT_DIR$/test/ProcessInputTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MarsRoverConstants.groovy">
+    <entry file="file://$PROJECT_DIR$/test/RoverTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProcessInput.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plateau.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="211" selection-end="577" vertical-scroll-proportion="0.0">
+        <state line="19" column="31" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/PlateauTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="6" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RoverTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/RoversException.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rover.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="1" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.9098143">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProcessInput.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plateau.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Nasa.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MarsRoverConstants.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="42" selection-end="42" vertical-scroll-proportion="0.04509284">
           <folding />
         </state>
       </provider>
