@@ -6,7 +6,7 @@ import util.RoversException
 
 public class Rover {
     Point position;
-    RoverDirection direction
+    RoverDirection roverDirection
 
     public String moveTheRoverOnPlateau(String moveString) {
         moveString = moveString.toUpperCase()
@@ -14,16 +14,16 @@ public class Rover {
             char c = moveString.charAt(index)
             move(c);
         }
-        (position.x.intValue() + " " + position.y.intValue() + " " + direction.getDirectionOfRover())
+        (position.x.intValue() + " " + position.y.intValue() + " " + roverDirection.getDirectionOfRover())
     }
 
     void move(char c) {
         if (c == 'L')
-            direction = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(direction.getLeftDirectionOfRover());
+            roverDirection = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(roverDirection.getLeftDirectionOfRover());
         else if (c == 'R')
-            direction = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(direction.getRightDirectionOfRover());
+            roverDirection = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(roverDirection.getRightDirectionOfRover());
         else if (c == 'M') {
-            Point translatePosition = direction.getForwardPositionOfRover()
+            Point translatePosition = roverDirection.getForwardPositionOfRover()
             position.translate(translatePosition.x.toInteger(), translatePosition.y.toInteger())
             def posX = position.x.intValue()
             def posY = position.y.intValue()

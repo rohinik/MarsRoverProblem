@@ -10,7 +10,7 @@ public class Nasa {
             println("Enter movments:")
             String currentPositionOfRover = rover.moveTheRoverOnPlateau(br.readLine().toUpperCase())
             println(currentPositionOfRover)
-            println("Do u want to change another marsroversolution.Rover position (Y/N)")
+            println("Do u want to change another Rover position (Y/N)")
             answer = br.readLine()
         }
     }
