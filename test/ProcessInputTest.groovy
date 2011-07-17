@@ -1,12 +1,14 @@
-
 import spock.lang.Specification
-class ProcessInputTest extends Specification{
+import marsroversolution.ProcessInput
+import marsroversolution.Rover
 
-    def "should create rover for given input"(){
+class ProcessInputTest extends Specification {
+
+    def "should create rover for given input"() {
         when:
-        Rover rover=ProcessInput.setTheRover("1 2 N")
+        Rover rover = ProcessInput.setTheRover("1 2 N")
         then:
-        rover.getPosX()==1
-        rover.getPosY()==2
+         rover.getPosition().x.intValue()==1
+        rover.getPosition().y.intValue()==2
     }
 }
