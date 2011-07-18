@@ -11,18 +11,18 @@ public class Rover {
     public String moveTheRoverOnPlateau(String moveString) {
         moveString = moveString.toUpperCase()
         for (int index = 0; index < moveString.length(); index++) {
-            char c = moveString.charAt(index)
-            move(c);
+            char movingSide = moveString.charAt(index)
+            move(movingSide);
         }
         (position.x.intValue() + " " + position.y.intValue() + " " + roverDirection.getDirectionOfRover())
     }
 
-    void move(char c) {
-        if (c == 'L')
+    void move(char movingSide) {
+        if (movingSide == 'L')
             roverDirection = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(roverDirection.getLeftDirectionOfRover());
-        else if (c == 'R')
+        else if (movingSide == 'R')
             roverDirection = MarsRoverConstants.DIRECTION_INSTANCE_LIST.get(roverDirection.getRightDirectionOfRover());
-        else if (c == 'M') {
+        else if (movingSide == 'M') {
             Point translatePosition = roverDirection.getForwardPositionOfRover()
             position.translate(translatePosition.x.toInteger(), translatePosition.y.toInteger())
             def posX = position.x.intValue()
